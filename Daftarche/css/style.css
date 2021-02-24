@@ -1,0 +1,449 @@
+@import "http://code.ionicframework.com/ionicons/2.0.1/css/ionicons.min.css";
+@font-face {
+    font-family: iran-sans;
+    src: url(../font/Iranian\ Sans.ttf);
+}
+body {
+    margin: 0;
+    padding: 0;
+    background-image: url(../image/line-background-black.jpg);
+    font-family: iran-sans;
+}
+header {
+    float: right;
+    width: 100%;
+    height: auto;
+    background-color:rgb(255, 208, 0)
+}
+.nav {
+    float: right;
+    width: 90%;
+    height: auto;
+    margin: 10px 5% 10px 5%;
+    
+}
+.nav .logo {
+    float: right;
+    width: 154px;
+    height: 60px;
+    margin: 5px 10px 5px 10px;
+}
+.menu-top {
+    position: absolute;
+    top: 50px;
+    left: 20%;
+    transform: translate(-50%,-50%);
+    float: right;
+    
+}
+.menu-top .menu-icon {
+    width: 60px;
+    position: relative;
+    display: inline-block;
+}
+.menu-icon i {
+    font-size: 30px;
+    color: black;
+    display: block;
+    text-align: center;
+}
+.menu-icon span {
+    position: relative;
+    width: 80px;
+    background: black;
+    color: white;
+    border-radius: 8px;
+    text-align: center;
+    padding: 5px 0;
+    display: block;
+    margin: 0 auto;
+    opacity: 0;
+    transition: 0.6s opacity;
+    font-size: 10px;
+}
+.menu-icon span:before {
+    content: '';
+    width: 10px;
+    height: 10px;
+    position: absolute;
+    top: -4px;
+    background: black;
+    z-index: -1;
+    left: 40%;
+    transform: translateX(-50%) rotate(45deg);
+
+}
+.menu-icon:hover > span {
+    opacity: 1;
+}
+.main {
+    float: right;
+    width: 100%;
+    height: auto;
+    background-image: url(../image/white\ background\ wallpaper.jpg);
+}
+.mydaftarche-start {
+    float: right;
+    width: 70%;
+    height: auto;
+    margin: 50px 15% 50px 15%;
+
+}
+.logo-main {
+    float: right;
+    width: 30%;
+    height: auto;
+    margin-right: 1%;
+}
+.logo-main img {
+    float: right;
+}
+.logo-text-main {
+    float: right;
+    width: 50%;
+    height: auto;
+    direction: rtl;
+}
+.logo-text-main h3 {
+    text-align: right;
+    font-size: 30px;
+    color: black;
+    
+}
+.logo-text-main .ltm-h6 {
+    text-align: right;
+    float: right;
+    width: auto;
+    height: auto;
+    margin-top: 5px;
+    background-color: black;
+    color: white;
+    border-radius: 8px;
+}
+.logo-text-main .ltm-h6 h6 {
+    text-align: right;
+    margin: 7px;
+    color: white;
+    font-size: 14px;
+
+}
+.socialnetwork {
+    float: left;
+    width: 50px;
+    height: auto;
+    background-color: rgb(255, 208, 0);
+    border-radius: 8px;
+    margin-left: 10px;
+}
+.socialnetwork ul {
+    float: left;
+    list-style-type: none;
+    display: block;
+    width: 30px;
+    margin-left: -30px;
+
+}
+.socialnetwork li {
+    list-style-type: none;
+    float: left;
+    display: block;
+    margin-bottom: 5px;
+}
+
+.signinup {
+    float: right;
+    width: 94%;
+    height: auto;
+    margin: 10px 3% 10px 3%;
+}
+
+.signinbox {
+    float: right;
+    width: 28%;
+    height: auto;
+    margin: 20px 1% 5px 1%;
+
+}
+.signupbox {
+    float: right;
+    width: 28%;
+    height: auto;
+    margin: 20px 1% 5px 1%;
+    
+}
+.newsbox {
+    float: right;
+    width: 38%;
+    height: auto;
+    margin: 20px 1% 5px 1%;
+    
+}
+.signinbox-head {
+    float: right;
+    width: 98%;
+    height: auto;
+    background-color: rgb(255, 208, 0);
+    border-radius: 8px;
+    color: black;
+    direction: rtl;
+    text-align: center;
+    margin-right: 1%;
+}
+.signinbox-head h3 {
+    text-align: center;
+    font-size: 20px;
+    margin-top: 7px;
+    margin-bottom: 7px;
+}
+.signinbox-body {
+    float: right;
+    width: 98%;
+    height: auto;
+    margin: 15px 1% 15px 1%;
+    background-color: #fff;
+    border-radius: 8px;
+    direction: rtl;
+    text-align: center;
+}
+.signinbox-user {
+    float: right;
+    width: 100%;
+    height: auto;
+    margin-top: 40px;
+    background-color: white;
+    
+}
+.signinbox-user span {
+    float: right;
+    text-align: center;
+    width: 100%;
+    height: auto;
+    margin-bottom: 9px;
+}
+.signinbox-user input {
+    float: right;
+    width: 80%;
+    height: 20px;
+    margin: 5px 10% 0px 10%;
+    text-align: center;
+}
+.signinbox-user2 {
+    float: right;
+    width: 100%;
+    height: auto;
+    margin-top: 15px;
+    background-color: white;
+    
+}
+.signinbox-user2 span {
+    float: right;
+    text-align: center;
+    width: 100%;
+    height: auto;
+    margin-bottom: 9px;
+}
+.signinbox-user2 input {
+    float: right;
+    width: 80%;
+    height: 20px;
+    margin: 5px 10% 0px 10%;
+    text-align: center;
+}
+
+.signinbox-botton {
+    float: right;
+    width: 98%;
+    height: auto;
+    margin: 20px 1% 20px 1%;
+}
+.signinbox-botton .signinbox-login {
+    background-color: rgb(255, 208, 0);
+    float: right;
+    width: 39%;
+    height: auto;
+    margin: 0 1% 0 0;
+    border-radius: 8px;
+}
+.signinbox-botton .signinbox-forget {
+    background-color: rgb(255, 208, 0);
+    float: left;
+    width: 58%;
+    height: auto;
+    margin: 0 0 0 1%;
+    border-radius: 8px;
+    color: black;
+    text-align: center;
+}
+.signinbox-botton p {
+    text-align: center;
+    color: black;
+}
+
+
+.signupbox-head {
+    float: right;
+    width: 98%;
+    height: auto;
+    background-color: rgb(255, 208, 0);
+    border-radius: 8px;
+    color: black;
+    direction: rtl;
+    text-align: center;
+    margin-right: 1%;
+}
+.signupbox-head h3 {
+    text-align: center;
+    font-size: 20px;
+    margin-top: 7px;
+    margin-bottom: 7px;
+}
+.signupbox-body {
+    float: right;
+    width: 98%;
+    height: auto;
+    margin: 15px 1% 15px 1%;
+    background-color: #fff;
+    border-radius: 8px;
+    direction: rtl;
+    text-align: center;
+}
+.signupbox-user {
+    float: right;
+    width: 100%;
+    height: auto;
+    margin-top: 40px;
+    background-color: white;
+    
+}
+.signupbox-user span {
+    float: right;
+    text-align: center;
+    width: 100%;
+    height: auto;
+    margin-bottom: 9px;
+}
+.signupbox-user input {
+    float: right;
+    width: 80%;
+    height: 20px;
+    margin: 5px 10% 0px 10%;
+    text-align: center;
+}
+.signupbox-user2 {
+    float: right;
+    width: 100%;
+    height: auto;
+    margin-top: 15px;
+    background-color: white;
+    
+}
+.signupbox-user2 span {
+    float: right;
+    text-align: center;
+    width: 100%;
+    height: auto;
+    margin-bottom: 9px;
+}
+.signupbox-user2 input {
+    float: right;
+    width: 80%;
+    height: 20px;
+    margin: 5px 10% 0px 10%;
+    text-align: center;
+}
+
+.signupbox-botton {
+    float: right;
+    width: 98%;
+    height: auto;
+    margin: 20px 1% 20px 1%;
+}
+.signupbox-signup {
+    background-color: rgb(255, 208, 0);
+    float: right;
+    width: 98%;
+    height: auto;
+    margin: 0 1% 0 1%;
+    border-radius: 8px;
+    color: black;
+    text-align: center;
+}
+
+.signupbox-botton p {
+    text-align: center;
+    color: black;
+    
+}
+
+.newsbox-head {
+    float: right;
+    width: 98%;
+    height: auto;
+    background-color: rgb(255, 208, 0);
+    border-radius: 8px;
+    color: black;
+    direction: rtl;
+    text-align: center;
+    margin-right: 1%;
+}
+.newsbox-head h3 {
+    text-align: center;
+    font-size: 20px;
+    margin-top: 7px;
+    margin-bottom: 7px;
+}
+.newsbox-body {
+    float: right;
+    width: 98%;
+    height: auto;
+    margin: 15px 1% 15px 1%;
+    background-color: #fff;
+    border-radius: 8px;
+    direction: rtl;
+    text-align: justify;
+}
+.newsbox-body-title {
+    float: right;
+    width: 96%;
+    height: auto;
+    margin: 10px 10px 5px;
+    color: black;
+    text-align: right;
+}
+.newsbox-body-content {
+    float: right;
+    width: 90%;
+    height: auto;
+    margin: 0px 5% 10px 5%;
+    text-align: right;
+}
+.newsbox-time {
+    float: right;
+    width: auto;
+    height: auto;
+    margin: 5px 15px 10px;
+    background-color: rgb(255, 208, 0);
+    text-align: center;
+    border-radius: 8px;
+}
+.newsbox-time p {
+    text-align: center;
+    margin: 10px 15px 10px 15px;
+    color: black;
+    
+
+}
+.newsbox-more {
+    float: left;
+    width: auto;
+    height: auto;
+    margin: 0 0 15px 5px;
+    background-color: rgb(255, 208, 0);
+    text-align: center;
+    border-radius: 8px;
+}
+.newsbox-more p {
+    text-align: center;
+    margin: 10px 15px 10px 15px;
+    color: black;
+}
